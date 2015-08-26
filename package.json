@@ -1,0 +1,21 @@
+{
+  "name": "wigglechat",
+  "version": "0.0.0",
+  "description": "Chat and see other people in the room as a wiggle",
+  "main": "app.js",
+  "author": "Daniel Olivares",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "beardcomb": "^0.4.1",
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.3.5",
+    "express": "~4.13.1",
+    "socket.io": "^1.3.6"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}

@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res, next) { 
-    res.render('index', {locals: { title: 'WiggleChat', conn: process.env.PORT ? 'https://wigglechat.herokuapp.com:' + port : 'http://localhost:3000' }, foundation: 'layout'}); 
+    res.render('index', {locals: { title: 'WiggleChat', conn: port != 3000 ? 'https://wigglechat.herokuapp.com:' + port : 'http://localhost:3000' }, foundation: 'layout'}); 
 });
 
 io.on('connection', function(socket){

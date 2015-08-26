@@ -1,3 +1,3 @@
-# graphitizeme
+# Wiggle Chat 
 
-See how others feel
+Anonymous chatting through just a wiggle. 
